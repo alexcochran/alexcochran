@@ -1,4 +1,4 @@
-### Hi, I'm Alex 🏴󠁵󠁳󠁣󠁯󠁿🏔️
+### Hi, I'm Alex 🏔️
 
 I'm a software engineer living near Denver, Colorado, USA.
 
