@@ -1,0 +1,14 @@
+# .devcontainer/Dockerfile
+#
+# Defines the environment for the Dev Container. This project only needs Python utilities, so it pulls
+# a Python image to keep things simple.
+# ----------------------------------------------------------------------------------------------------
+
+# Provide the Python version with a default argument. It can also be set in devcontainer.json.
+ARG PYTHON_VERSION=3.11-bullseye
+
+FROM python:${PYTHON_VERSION}
+
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    # Remove imagemagick due to https://security-tracker.debian.org/tracker/CVE-2019-10131
+    && apt-get purge -y imagemagick imagemagick-6-common

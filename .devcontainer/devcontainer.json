@@ -1,0 +1,142 @@
+// Python (Latest) Dev Container Configuration
+//
+// This is a Dev Container configuration for Python development with settings and extensions that make writing
+// standardized code relatively straightforward. This repository comes pre-loaded with a large number of
+// development extensions, like mypy, Bandit, Black, and more.
+//
+// This containerized development environment is designed for use with Visual Studio Code.
+//
+// Helpful documentation:
+// - https://containers.dev/implementors/json_reference/
+// - https://code.visualstudio.com/docs/devcontainers/containers#_create-a-devcontainerjson-file
+// - https://aka.ms/vscode-remote/devcontainer.json
+// - https://www.kenmuse.com/blog/avoiding-dubious-ownership-in-dev-containers/
+//
+// Reference configuration:
+// - https://github.com/microsoft/vscode-dev-containers/tree/v0.202.3/containers/python-3
+// -----------------------------------------------------------------------------------------------------------------
+{
+  "name": "GitHub Meta",
+  "build": {
+    "dockerfile": "./Dockerfile.devcontainer",
+    "context": ".",
+    "args": {
+      "PYTHON_VERSION": "3.11-slim"
+    }
+  },
+
+  // Set up any Dev Container Features (shareable units of installation code + container configuration)
+  "features": {
+    // `common-utils` sets up a non-root user and configures them by default, among other things
+    // https://github.com/devcontainers/features/tree/main/src/common-utils
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "upgradePackages": true
+    }
+  },
+
+  // Set container environment variables
+  "containerEnv": {
+    // Don't generate *.pyc files in the containerized development environment
+    "PYTHONDONTWRITEBYTECODE": "true"
+  },
+
+  // Set environment variables for the service supporting the Dev Container (Visual Studio Code, in this case)
+  "remoteEnv": {
+    "CONTAINER_WORKSPACE_FOLDER": "${containerWorkspaceFolder}"
+  },
+
+  // Configure editor-specific properties.
+  "customizations": {
+    // Configure properties specific to Visual Studio Code.
+    "vscode": {
+      // Add the IDs of extensions we want installed when the container is created
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "EditorConfig.EditorConfig",
+        "tamasfe.even-better-toml",
+        "eamodio.gitlens",
+        "aaron-bond.better-comments"
+      ],
+
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        },
+
+        // Configure formatting (including import sorting via `isort`) to happen on save
+        "python.formatting.isortPath": "${containerWorkspaceFolder}/.venv/bin/isort",
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+        },
+
+        // Opens Visual Studio code at the project README upon launch of the containzerized dev environment
+        "workbench.startupEditor": "readme",
+
+        // Python language tools setup (use Poetry's virtual Python)
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
+        "python.languageServer": "Pylance",
+
+        // Code formatting tooling
+        "editor.formatOnSave": true,
+        "python.formatting.blackPath": "${containerWorkspaceFolder}/.venv/bin/black",
+        "python.formatting.provider": "black",
+
+        // Turn Python linting on to enable our specific linting tools
+        "python.linting.enabled": true,
+
+        // Enable PyLint: linting
+        "python.linting.pylintPath": "${containerWorkspaceFolder}/.venv/bin/pylint",
+        "python.linting.pylintEnabled": true,
+
+        // Enable Flake8: more linting + code style checking
+        //
+        // Note: Flake8 requires a dependency `Flake8-pyproject` in order to use configuraiton from a `pyproject.toml`
+        // file. See this page for more information: https://github.com/john-hen/Flake8-pyproject
+        "python.linting.flake8Path": "${containerWorkspaceFolder}/.venv/bin/flake8",
+        "python.linting.flake8Enabled": true,
+
+        // Enable Bandit: common security issue detection
+        "python.linting.banditPath": "${containerWorkspaceFolder}/.venv/bin/bin/bandit",
+        "python.linting.banditEnabled": true,
+
+        // Enable MyPy static type checking
+        "python.linting.mypyPath": "${containerWorkspaceFolder}/.venv/bin/mypy",
+        "python.linting.mypyEnabled": true
+      }
+    }
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [9000],
+
+  // Use 'portsAttributes' to set default properties for specific forwarded ports.
+  // More information: https://code.visualstudio.com/docs/remote/devcontainerjson-reference.
+  // "portsAttributes": {
+  //   "9000": {
+  //     "label": "Hello Remote World",
+  //     "onAutoForward": "notify"
+  //   }
+  // },
+
+  // Use 'otherPortsAttributes' to configure any ports that aren't configured using 'portsAttributes'.
+  // "otherPortsAttributes": {
+  //   "onAutoForward": "silent"
+  // },
+
+  // Comment out to connect as root instead.
+  // More information: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "vscode",
+
+  // Use `postCreateCommand` to run one or more commands after the container has been created (via
+  // `.devcontainer/post-create-commands.sh`).
+  "postCreateCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-create-commands.sh",
+
+  // Use `postStartCommand` to run one or more commands after the container has started (via
+  // `.devcontainer/post-start-commands.sh`).
+  "postStartCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-start-commands.sh"
+}
