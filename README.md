@@ -1,10 +1,10 @@
 ## Hi, I'm Alex 🏔️
 
-I'm a software engineer living near Denver, Colorado, USA.
+I'm a software engineer living near Denver, Colorado, USA. I love open source software, learning new concepts, building neat projects, and tackling
+steep trails.
 
-I love open source software, learning new concepts, building neat projects, and climbing steep trails. I've worked on
-projects ranging from preclinical MRI data analysis for novel studies to web apps that have delivered solutions to
-enterprise-level customers.
+I've worked on MRI data analysis for novel animal studies, web apps that delivered solutions to enterprise-level customers,
+and a lot of other cool integrations and functionality in-between.
 
 I keep most of the code I share on [a GitLab group](https://gitlab.com/alexlab-cloud) where I can organize things with
 a bit more control.
