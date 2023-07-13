@@ -4,7 +4,7 @@ I'm a software engineer living near Denver, Colorado, USA. I love open source so
 steep trails.
 
 I've worked on MRI data analysis for novel animal studies, web apps that delivered solutions to enterprise-level customers,
-and a lot of other cool integrations and functionality in-between.
+and a lot of other cool integrations and functionality.
 
 I keep most of the code I share on [a GitLab group](https://gitlab.com/alexlab-cloud) where I can organize things with
 a bit more control.
