@@ -3,13 +3,9 @@
 I'm a software engineer living near Denver, Colorado, USA. I love open source software, learning new concepts, building neat projects, and tackling
 steep trails.
 
-I've worked on MRI data analysis for novel preclinical studies, web apps that delivered solutions to enterprise-level customers,
-and a lot of other cool integrations and functionality.
+I keep most of the code I share on GitLab in **[my account](https://gitlab.com/alexcochran)** and **[my personal group](https://gitlab.com/alexlab-cloud)**.
 
-I keep most of the code I share on [my GitLab account](https://gitlab.com/alexcochran) and in [a group](https://gitlab.com/alexlab-cloud) where I can
-namespace everything.
-
-### Links
+---
 
 [![acochran.dev](https://img.shields.io/badge/acochran.dev-blue?style=for-the-badge&color=%23470ff4)](https://acochran.dev)
 
