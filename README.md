@@ -16,7 +16,7 @@ I keep most of the code I share on GitLab in **[my account](https://gitlab.com/a
 
 ---
 
-![Mt. Sniktau](assets/images/blue-lake.jpg)
+![Blue Lake and Mt. Toll](assets/images/blue-lake.jpg)
 
 <!-- Badges -->
 [badges.personal-website]: https://img.shields.io/badge/acochran.dev-blue?style=for-the-badge&color=%23470ff4
