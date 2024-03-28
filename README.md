@@ -2,7 +2,7 @@
 
 I'm a software engineer living near Denver, Colorado, USA.
 
-I keep most of the code I share on GitLab in **[my account](https://gitlab.com/alexcochran)** and **[my OSS learning project](https://gitlab.com/alexlab-cloud)**.
+I keep most of the code I share on GitLab in **[my account](https://gitlab.com/alexcochran)** and **[my OSS learning project AlexLab Cloud](https://gitlab.com/alexlab-cloud)**.
 
 ---
 
