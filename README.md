@@ -59,8 +59,6 @@ I mainly track my source code on [Codeberg][href.codeberg]:
   >
 </div>
 
----
-
 <div align="center">
   <img
     src="assets/images/262E_color.png"
