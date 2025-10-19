@@ -67,6 +67,7 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 
 <div align="center">
   <img src="assets/images/262E_color.png" width="96px" alt="Peace symbol">
+  &nbsp;
   <img src="assets/images/1F3F4-E0075-E0073-E0063-E006F-E007F_color.png" width="96px" alt="Colorado flag" title="I made this!">
 </div>
 
