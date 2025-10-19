@@ -61,14 +61,27 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 
 ---
 
-![Blue Lake and Mt. Toll](assets/images/blue-lake.jpg)
-
----
-
 <div align="center">
-  <img src="assets/images/262E_color.png" width="96px" alt="Peace symbol">
+  <img
+    src="assets/images/262E_color.png"
+    width="96px"
+    alt="Peace symbol"
+    title="Fight for peace"
+  >
   &nbsp;
-  <img src="assets/images/1F3F4-E0075-E0073-E0063-E006F-E007F_color.png" width="96px" alt="Colorado flag" title="I made this!">
+  <img
+    src="assets/images/1F3F4-E0075-E0073-E0063-E006F-E007F_color.png"
+    width="96px"
+    alt="Colorado flag"
+    title="I made this!"
+  >
+  &nbsp;
+  <img
+    src="assets/images/E249_color.png"
+    width="96px"
+    alt="Collaboration symbol"
+    title="Encourage collaboration"
+  >
 </div>
 
 <!-- Links -->
