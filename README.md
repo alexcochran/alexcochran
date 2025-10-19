@@ -31,27 +31,28 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 
 <div align="center">
   <img
-    src=".assets/images/openmoji/1F1F5-1F1F8_color.png"
+    src="assets/images/1F1F5-1F1F8_color.png"
     width="96px"
     alt="Palestinian flag"
     title="Peace for Palestine"
   >
   &nbsp;
   <img
-    src=".assets/images/openmoji/1F1FE-1F1EA_color.png"
+    src="assets/images/1F1FE-1F1EA_color.png"
     width="96px"
     alt="Yemeni flag"
     title="Peace for Yemen"
   >
   &nbsp;
   <img
-    src=".assets/images/openmoji/1F1FA-1F1E6_color.png"
+    src="assets/images/1F1FA-1F1E6_color.png"
     width="96px"
     alt="Ukrainian flag"
+    title="Peace for Ukraine"
   >
   &nbsp;
   <img
-    src=".assets/images/openmoji/1F1FA-1F1F8_color.png"
+    src="assets/images/1F1FA-1F1F8_color.png"
     width="96px"
     alt="American flag"
     title="United we stand, divided we fall"
@@ -65,8 +66,8 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 ---
 
 <div align="center">
-  <img src=".assets/images/openmoji/262E_color.png" width="96px" alt="Peace symbol">
-  <img src=".assets/images/openmoji/1F3F4-E0075-E0073-E0063-E006F-E007F_color.png" width="96px" alt="Colorado flag" title="I made this!">
+  <img src="assets/images/262E_color.png" width="96px" alt="Peace symbol">
+  <img src="assets/images/1F3F4-E0075-E0073-E0063-E006F-E007F_color.png" width="96px" alt="Colorado flag" title="I made this!">
 </div>
 
 <!-- Links -->
