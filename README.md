@@ -10,7 +10,7 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 
 <div align="center">
   <img
-    alt="codeberg.org user @alexcochran"
+    alt="codeberg.org user @bofur"
     src="https://img.shields.io/badge/%40alexcochran-737373?style=for-the-badge&logo=codeberg&logoColor=white&label=codeberg&labelColor=2185D0"
     title="My personal dev projects and config"
   >
@@ -31,8 +31,5 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 <!-- ----- -->
 [href.codeberg]: https://codeberg.org
 [href.alex.homepage]: https://acochran.dev
-[href.alex.public-email]: mailto:contact@acochran.dev
+[href.alex.public-email]: mailto:asc-eng@pm.me
 
-<!-- Badge URLs -->
-<!-- ---------- -->
-[badges.personal-website]: https://img.shields.io/badge/acochran.dev-blue?style=for-the-badge&color=%23470ff4
