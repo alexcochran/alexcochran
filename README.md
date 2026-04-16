@@ -11,7 +11,7 @@ I mainly track my source code on [Codeberg][href.codeberg]:
 <div align="center">
   <img
     alt="codeberg.org user @bofur"
-    src="https://img.shields.io/badge/%40alexcochran-737373?style=for-the-badge&logo=codeberg&logoColor=white&label=codeberg&labelColor=2185D0"
+    src="https://img.shields.io/badge/%bofur-737373?style=for-the-badge&logo=codeberg&logoColor=white&label=codeberg&labelColor=2185D0"
     title="My personal dev projects and config"
   >
   &nbsp;
